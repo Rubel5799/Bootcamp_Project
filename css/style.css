@@ -1,0 +1,574 @@
+/**************************
+ 		Global CSS
+***************************/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a; a:hover{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
+}
+
+
+/********************************************
+	Header + banner section css code start
+*********************************************/
+.header-and-banner-section{
+	width: 100%;
+	background: url(../img/banner-bg2.png) center center no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+
+/********************************************
+	Top header section css code start
+*********************************************/
+.top-header-section{
+	width: 100%;
+	background: #ffffff3d;
+}
+
+.top-header-inner{
+
+}
+
+.top-header-inner .contact {
+    padding: 6px 0;
+}
+
+.top-header-inner .contact ul {
+    margin: 0;
+    display: flex;
+}
+
+.top-header-inner .contact ul li {
+    padding-right: 20px;
+}
+
+.top-header-inner .contact ul li a {
+    text-decoration: none;
+    color: #ffffffa3;
+}
+
+.top-header-inner .contact ul li a span{
+	color: #ffffffa3;
+    transition: .5s;
+}
+
+.top-header-inner .contact ul li a span:hover{
+	color: #f68220;
+    transition: .5s;
+}
+
+.top-header-inner .contact .fa {
+    padding-right: 5px;
+}
+
+.top-header-inner .social-icon{
+	float: right;
+}
+
+.top-header-inner .social-icon ul {
+    margin: 0;
+    display: flex;
+}
+
+.top-header-inner .social-icon ul li {
+    padding: 0 30px;
+}
+
+.top-header-inner .social-icon ul li a {
+    font-size: 24px;
+    color: #ffffffa3;
+    transition: .5s;
+}
+
+.top-header-inner .social-icon ul li a:hover {
+    color: #f68220;
+    transition: .5s;
+}
+
+/********************************************
+	Main header section css code start
+*********************************************/
+.navbar-brand {
+    width: 40%;
+}
+
+.navbar-brand img{
+    width: 30%;
+}
+
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f68220;
+    transition: .5s;
+}
+
+
+
+/********************************************
+	Banner section css code start
+*********************************************/
+.banner-section{
+
+}
+
+.banner-inner .title{
+	padding-top: 40PX;
+}
+
+
+.banner-inner .title span{
+	color: #f68220;
+	padding-bottom: 20px;
+	font-weight: 400;
+}
+
+.banner-inner .title h1 {
+    color: white;
+    text-transform: uppercase;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.banner-inner .title h1 span{
+	color: #f68220;
+}
+
+.banner-inner .title p {
+    color: #fff;
+    padding-right: 120px;
+}
+
+.banner-inner .title .btn {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 8px 22px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.banner-inner .title .btn:hover {
+	background: #f68220;
+    border: 1px solid #f68220;
+    transition: .5s;
+}
+
+.banner-inner .img{
+	width: 100%;
+	padding-top: 40px;
+}
+
+.banner-inner .img img{
+	width: 100%;
+}
+
+/********************************************
+	Card section css code start
+*********************************************/
+.card-section{
+	width: 100%;
+	padding: 80px 0;
+	background: #fff4ef8c;
+}
+
+.card-inner{
+
+}
+
+
+.card-inner .title{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.card-inner .title h2 {
+    color: #444;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-inner .title .line{
+	width: 100%;
+	padding: 10px 0;
+}
+
+.card-inner .title .line img{
+	width: 20%;
+}
+
+.card-inner .title p{
+	color: #878787;
+	padding: 0 280px;
+}
+
+.card-inner .card{
+	width: 100%;
+	margin-bottom: 25px;
+	box-shadow: 14px 14px 28px -4px rgba(0,0,0,0.1);
+	transition: .5s;
+}
+
+.card-inner .card:hover{
+	box-shadow: none;
+	transition: .5s;
+}
+
+.card-inner .card img{
+	height: 200px;
+}
+
+.card-inner .card .card-body{
+	text-align: center;
+	background: #fff4ef8c;
+	padding-bottom: 27px;
+}
+
+.card-inner .card .card-body:hover{
+	background: #fff;
+}
+
+.card-inner .card .card-body h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #444;
+}
+
+.card-inner .card .card-body p{
+	font-size: 15px;
+	color: #878787;
+}
+
+.card-inner .card .card-body .btn{
+
+}
+
+.card-inner .card .card-body .btn{
+    color: white;
+    background: #f68220;
+    border: 1px solid #f68220;
+    border-radius: 3px;
+    padding: 6px 14px;
+    transition: .5s;
+}
+
+.card-inner .card .card-body .btn:hover {
+	background: transparent;
+    border: 1px solid #f68220;
+    color: #f68220;
+    transition: .5s;
+}
+
+/********************************************
+	Dealer section css code start
+*********************************************/
+.dealer-section{
+	width: 100%;
+	padding: 80px 0;
+	background: black;
+}
+
+.dealer-inner{
+
+}
+
+.dealer-inner .title{
+
+}
+
+.dealer-inner .title span{
+	color: #f68220;
+}
+
+.dealer-inner .title h2{
+	color: white;
+	padding-top: 10px;
+	padding-right: 100px;
+
+}
+
+.dealer-inner .title p{
+	color: #878787;
+	padding-right: 136px;
+	padding-bottom: 10px;
+}
+
+.dealer-inner .title .btn{
+	color: white;
+    background: #f68220;
+    border: 1px solid #f68220;
+    border-radius: 3px;
+    padding: 7px 15px;
+    transition: .5s;
+}
+
+.dealer-inner .title .btn:hover{
+	color: #f68220;
+    background: #fff;
+    border: 1px solid #f68220;
+    transition: .5s;
+}
+
+.dealer-inner .img{
+	width: 100%;
+}
+
+.dealer-inner .img img{
+	width: 100%;
+}
+
+
+
+
+
+/********************************************
+	Feature section css code start
+*********************************************/
+.feature-section{
+	width: 100%;
+	padding: 80px;
+	background: #fff4ef8c;
+}
+
+.feature-inner{
+
+}
+
+.feature-inner .title{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.feature-inner .title h2 {
+    color: #444;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0 180px;
+}
+
+.feature-inner .title .line{
+	width: 100%;
+	padding: 10px 0;
+}
+
+.feature-inner .title .line img{
+	width: 20%;
+}
+
+.feature-inner .title p{
+	color: #878787;
+	padding: 0 280px;
+}
+
+.feature-inner .features {
+	padding: 10px 0;
+	transition: .5s;
+}
+
+.feature-inner .features:hover {
+    background: white;
+    box-shadow: 14px 14px 28px -4px rgba(0,0,0,0.1);
+    transition: .5s;
+}
+
+.feature-inner .features {
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.feature-inner .features .icon{
+	width: 100%;
+}
+
+.feature-inner .features .icon img{
+	width: 20%;
+}
+
+.features h2 {
+    color: #444;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 0px;
+}
+
+.features .line{
+	width: 100%;
+	padding: 0px;
+}
+
+.features .line img{
+	width: 25%;
+}
+
+.features p{
+	color: #878787;
+	padding: 0 20px;
+}
+
+.feature-inner .button{
+	text-align: center;
+}
+
+.feature-inner .button .btn{
+	
+}
+
+.feature-inner .button .btn {
+    color: white;
+    background: #f68220;
+    border: 1px solid #f68220;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 8px 22px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.feature-inner .button .btn:hover {
+	background: transparent;
+    border: 1px solid #f68220;
+    color: #f68220;
+    transition: .5s;
+}
+
+
+
+/********************************************
+	Form section css code start
+*********************************************/
+.form-section{
+	width: 100%;
+	padding: 80px 0;
+	background: url(../img/footer-bg2.png) center center no-repeat;
+	background-size: cover;
+}
+
+.form-inner{
+	text-align: center;
+	margin: 0 150px;
+}
+
+.form-inner h2{
+	text-align: center;
+	color: #ffffffd4;
+	font-weight: 600;
+	margin-bottom: 40px;
+}
+
+.form-inner .left{
+	display: grid;
+}
+
+.form-inner .left input {
+	color: white;
+    padding: 7px 7px;
+    margin: 5px 0;
+    background: transparent;
+    border: 1px solid #ffffffcf;
+}
+
+.form-inner .right{
+	display: grid;
+}
+
+.form-inner .right textarea {
+	color: white;
+    padding: 7px 7px 181px 7px;
+    margin: 5px 0;
+    background: transparent;
+    border: 1px solid #ffffffcf;
+}
+
+.form-inner .button .btn{
+	float: right;
+	color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 8px;
+    margin-left: 10px;
+    padding: 7px 18px;
+    transition: .5s;
+}
+
+.form-inner .button .btn:hover{
+	color: white;
+    background: #f68220;
+    border: 1px solid #f68220;
+    transition: .5s;
+}
+
+/********************************************
+	Footer section css code start
+*********************************************/
+
+
+
+
+
+
+/********************************************
+	Copy Right section css code start
+*********************************************/
+.copy-section{
+	width: 100%;
+	padding: 20px 0;
+	background: #fff4ef8c;
+}
+
+.copy-section .copy-iner{
+	text-align: center;
+}
+
+.copy-section .copy-iner p{
+	color: #878787;
+	margin: 0;
+}
+
+.copy-section .copy-iner p span a{
+	color: #f68220;
+	text-decoration: none;
+}
+
+/*************Md Rubel Gazi*************/
